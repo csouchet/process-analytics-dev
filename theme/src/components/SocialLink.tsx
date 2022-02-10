@@ -18,7 +18,7 @@ import { Link } from 'rebass/styled-components';
 import Tippy from '@tippyjs/react';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { SocialLink as SocialLinkType } from '../types';
+import { SocialLink as SocialLinkType } from '../../../types/src/types';
 import { getIconDefinition } from '../utils/icons';
 
 type Props = SocialLinkType & {

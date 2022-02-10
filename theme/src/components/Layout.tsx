@@ -17,7 +17,7 @@ import React, { ReactNode } from 'react';
 import { Theme } from '@rebass/preset';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import { loadIcons } from '../utils/icons';
-import { theme } from '../theme';
+import { theme } from '../../../style/src/theme';
 import Helmet from './Helmet';
 import 'tippy.js/dist/tippy.css';
 import CookieConsent, { Cookies } from 'react-cookie-consent';

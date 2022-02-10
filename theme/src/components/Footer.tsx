@@ -20,8 +20,8 @@ import { Fade } from 'react-awesome-reveal';
 import SocialLink from './SocialLink';
 import { Link } from './Link';
 import { GATSBY_URL, MEDIA_QUERY_SMALL } from '../utils/constants';
-import { landing } from '../../content/LandingContent';
-import { header } from '../../content/HeaderContent';
+import { landing } from '../../../content/src/LandingContent';
+import { header } from '../../../content/src/HeaderContent';
 
 const Footer = (): JSX.Element => {
   const { title, socialLinks } = landing;

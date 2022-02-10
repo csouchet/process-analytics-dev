@@ -16,12 +16,12 @@
 import React, { ReactNode } from 'react';
 import { Flex, Heading, Text } from 'rebass/styled-components';
 import styled from 'styled-components';
-import { PostDescription } from '../types';
+import { PostDescription } from '../../../types/src/types';
 import { Card, CardContainer } from './Card';
 import CardFooter from './CardFooter';
 import { Fade } from 'react-awesome-reveal';
 import { LinkInButton } from './Link';
-import colors from '../colors.json';
+import colors from '../../colors.json';
 
 const cardMinWidth = '350px';
 

@@ -21,7 +21,7 @@ import {
 } from '@fortawesome/fontawesome-svg-core';
 import { prefix as brandPrefix } from '@fortawesome/free-brands-svg-icons';
 import { prefix as basePrefix } from '@fortawesome/free-solid-svg-icons';
-import { ICONS } from '../icons';
+import { ICONS } from '../../../types/src/icons';
 
 export const loadIcons = (): void => library.add(...ICONS);
 

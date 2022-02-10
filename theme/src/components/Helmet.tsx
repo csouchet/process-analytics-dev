@@ -16,7 +16,7 @@
 import React from 'react';
 import { Helmet as ReactHelmet } from 'react-helmet';
 import { withTheme } from 'styled-components';
-import { Theme } from '../types';
+import { Theme } from '../../../types/src/types';
 import { helmet } from '../../content/HelmetContent';
 import { graphql, useStaticQuery } from 'gatsby';
 

@@ -25,7 +25,7 @@ import {
 import styled from 'styled-components';
 import { header } from '../../content/HeaderContent';
 import { LinkInButton } from './Link';
-import colors from '../colors.json';
+import colors from '../../colors.json';
 
 const PageHeader = (): JSX.Element => {
   const { logo } = header;

@@ -4,32 +4,22 @@
     "menu": [
       [
         "TOKENS",
-        []
-      ],
-      [
-        "COMPONENTS",
-        []
-      ],
-      [
-        "PAGE",
         [
-          "404",
-          "Blog",
-          "Home",
-          "News"
+          "images",
+          "content",
+          "style"
         ]
       ],
       [
-        "CONTENT",
+        "COMPONENTS",
         [
-          "AboutContent",
-          "HeaderContent",
-          "HelmetContent",
-          "LandingContent",
-          "LibraryContent",
-          "NewsContent",
-          "PostsContent",
-          "SocialLinksContent"
+          "theme"
+        ]
+      ],
+      [
+        "UI",
+        [
+          "pages"
         ]
       ],
       [
@@ -38,7 +28,10 @@
           "static",
           "config",
           "readme",
-          "ressources"
+          "ressources",
+          "types",
+          ".github",
+          ".husky"
         ]
       ]
     ]

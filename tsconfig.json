@@ -12,6 +12,6 @@
     "skipLibCheck": true,
     "resolveJsonModule": true
   },
-  "include": ["src"],
+  "include": ["content", "theme", "pages", "types", "style"],
   "exclude": ["node_modules", "public", ".cache"]
 }
