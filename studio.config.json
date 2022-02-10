@@ -13,7 +13,29 @@
       [
         "COMPONENTS",
         [
-          "theme"
+          "theme",
+          "card",
+          "header",
+          "footer",
+          "divider",
+          "layout",
+          "library",
+          "link",
+          "mdxPanel",
+          "imagePanel",
+          "form",
+          "mailingListSubscription",
+          "description",
+          "post",
+          "section",
+          "background"
+        ]
+      ],
+      [
+        "FRAGMENTS",
+        [
+          "section-template",
+          "page-template"
         ]
       ],
       [
