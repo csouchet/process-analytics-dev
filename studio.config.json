@@ -11,8 +11,35 @@
         []
       ],
       [
+        "PAGE",
+        [
+          "404",
+          "Blog",
+          "Home",
+          "News"
+        ]
+      ],
+      [
+        "CONTENT",
+        [
+          "AboutContent",
+          "HeaderContent",
+          "HelmetContent",
+          "LandingContent",
+          "LibraryContent",
+          "NewsContent",
+          "PostsContent",
+          "SocialLinksContent"
+        ]
+      ],
+      [
         "INFRASTRUCTURE",
-        []
+        [
+          "static",
+          "config",
+          "readme",
+          "ressources"
+        ]
       ]
     ]
   }
