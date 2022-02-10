@@ -7,19 +7,49 @@
         [
           "images",
           "content",
-          "style"
+          "style",
+          "icons",
+          "other"
         ]
       ],
       [
         "COMPONENTS",
         [
-          "theme"
+          "card",
+          "header",
+          "footer",
+          "divider",
+          "layout",
+          "library",
+          "link",
+          "mailingListSubscription",
+          "description",
+          "post",
+          "section",
+          "background",
+          "hide",
+          "scrollIcon",
+          "markdown",
+          "helmet"
+        ]
+      ],
+      [
+        "FRAGMENTS",
+        [
+          "section-template",
+          "page-template"
         ]
       ],
       [
         "UI",
         [
           "pages"
+        ]
+      ],
+      [
+        "OTHER",
+        [
+          "helper"
         ]
       ],
       [

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 import * as React from 'react';
-import Layout from '../theme/components/Layout';
-import Header from '../theme/components/Header';
-import Landing from '../theme/sections/Landing';
-import About from '../theme/sections/About';
-import Libraries from '../theme/sections/Libraries';
-import { Blog } from '../theme/sections/Blog';
-import Footer from '../theme/components/Footer';
-import { News } from '../theme/sections/News';
-import { PAGE } from '../theme/utils/constants';
-import { MailingListSubscription } from '../theme/components/mailingListSubscription/MailingListSubscription';
+import Layout from '../../layout/src/Layout';
+import Header from '../../header/src/Header';
+import Landing from '../../section-template/src/Landing';
+import About from '../../section-template/src/About';
+import Libraries from '../../section-template/src/Libraries';
+import { Blog } from '../../section-template/src/Blog';
+import Footer from '../../footer/src/Footer';
+import { News } from '../../section-template/src/News';
+import { PAGE } from '../../other/src/constants';
+import { MailingListSubscription } from '../../mailingListSubscription/src/MailingListSubscription';
 
 const HomePage = (): JSX.Element => (
   <Layout title={PAGE.home}>

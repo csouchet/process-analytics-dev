@@ -13,18 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import * as React from 'react';
-import { PAGE, SECTION } from '../../other/src/constants';
-import { postsContent } from '../../content/src/PostsContent';
-import { PageWithPosts } from '../../page-template/src/PageWithPosts';
+import styled from 'styled-components';
+import { Theme } from '../../types/src/types';
 
-const BlogPage = (): JSX.Element => (
-  <PageWithPosts
-    layoutTitle={PAGE.blog}
-    containerTitle={SECTION.blog}
-    posts={postsContent.posts}
-    description={postsContent.description}
-  />
-);
+const Divider = styled.div`
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    left: 35%;
+    right: 35%;
+    height: 2px;
+    background-image: linear-gradient(
+      to right,
+      transparent,
+      ${props => (props.theme as Theme).colors.primary},
+      transparent
+    );
+  }
+`;
 
-export default BlogPage;
+export default Divider;

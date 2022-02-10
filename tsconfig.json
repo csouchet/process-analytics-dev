@@ -8,10 +8,43 @@
     "esModuleInterop": true,
     "moduleResolution": "node",
     "jsx": "react",
-    "lib": ["es6"],
+    "lib": [
+      "es6"
+    ],
     "skipLibCheck": true,
     "resolveJsonModule": true
   },
-  "include": ["content", "theme", "pages", "types", "style"],
-  "exclude": ["node_modules", "public", ".cache"]
+  "include": [
+    "content",
+    "style",
+    "icons",
+    "other",
+    "card",
+    "header",
+    "footer",
+    "divider",
+    "layout",
+    "library",
+    "link",
+    "form",
+    "mailingListSubscription",
+    "description",
+    "post",
+    "section",
+    "background",
+    "hide",
+    "scrollIcon",
+    "markdown",
+    "helmet",
+    "section-template",
+    "page-template",
+    "pages",
+    "helper",
+    "types"
+  ],
+  "exclude": [
+    "node_modules",
+    "public",
+    ".cache"
+  ]
 }

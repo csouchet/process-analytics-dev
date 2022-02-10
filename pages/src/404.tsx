@@ -15,15 +15,15 @@
  */
 import * as React from 'react';
 import { Box, Image, Text } from 'rebass/styled-components';
-import Layout from '../theme/components/Layout';
-import Section from '../theme/components/Section';
-import Triangle from '../theme/components/Triangle';
+import Layout from '../../layout/src/Layout';
+import Section from '../../section/src/Section';
+import Triangle from '../../background/src/Triangle';
 import { Link } from 'gatsby';
 import Img from '../images/404.png';
-import { PAGE } from '../theme/utils/constants';
-import PageHeader from '../theme/components/PageHeader';
-import Footer from '../theme/components/Footer';
-import { MailingListSubscription } from '../theme/components/mailingListSubscription/MailingListSubscription';
+import { PAGE } from '../../other/src/constants';
+import PageHeader from '../../header/src/PageHeader';
+import Footer from '../../footer/src/Footer';
+import { MailingListSubscription } from '../../mailingListSubscription/src/MailingListSubscription';
 
 const NotFoundPage = (): JSX.Element => (
   <Layout title={PAGE.notFound}>

@@ -13,18 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import * as React from 'react';
-import { PAGE, SECTION } from '../../other/src/constants';
-import { postsContent } from '../../content/src/PostsContent';
-import { PageWithPosts } from '../../page-template/src/PageWithPosts';
+import { SECTION } from '../../other/src/constants';
 
-const BlogPage = (): JSX.Element => (
-  <PageWithPosts
-    layoutTitle={PAGE.blog}
-    containerTitle={SECTION.blog}
-    posts={postsContent.posts}
-    description={postsContent.description}
-  />
-);
-
-export default BlogPage;
+export const getSectionHref = (section: SECTION): string => {
+  return Object.keys(SECTION)[Object.values(SECTION).indexOf(section)];
+};
