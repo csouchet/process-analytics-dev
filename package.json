@@ -7,16 +7,18 @@
   "keywords": [
     "gatsby"
   ],
+  "homepage": "{{ homepage }}",
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve",
+    "gatsby-serve": "gatsby serve",
     "clean": "gatsby clean",
     "check-types": "tsc -p . --noEmit",
     "lint": "eslint \"*/**/*.{js,ts,tsx}\" NOTICE --max-warnings 0 --fix",
     "lint-check": "eslint \"*/**/*.{js,ts,tsx}\" NOTICE --max-warnings 0",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "serve": "npx backlight@latest serve Q4wI0lSsof7RBu9vTYz1 --open"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
