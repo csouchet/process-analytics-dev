@@ -30,7 +30,7 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import { createTheme, PaletteMode, Theme } from '@mui/material';
+import { createTheme, PaletteMode, PaletteOptions, Theme } from '@mui/material';
 
 import { responsiveFontSizes } from './responsiveFont';
 
@@ -92,10 +92,21 @@ import {
   MuiTooltip,
 } from './components';
 
+const getPalette = (mode: PaletteMode): PaletteOptions => {
+  switch (mode) {
+    case 'light':
+    case 'toto':
+      return paletteLight;
+    case 'dark':
+    case 'plop':
+      return paletteDark;
+  }
+};
+
 export const createResponsiveTheme = (mode: PaletteMode): Theme => {
   const generatedTheme = createTheme({
     breakpoints,
-    palette: mode === 'light' ? paletteLight : paletteDark,
+    palette: getPalette(mode),
     typography,
     components: {
       MuiAppBar,

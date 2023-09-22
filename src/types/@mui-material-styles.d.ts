@@ -84,6 +84,13 @@ declare module '@mui/material/styles' {
     palette: Palette & SocialPalette;
   }
 
+  export interface PaletteModeOptions {
+    toto: string;
+    plop: string;
+  }
+
+  export type PaletteMode = 'light' | 'dark' | 'toto' | 'plop';
+
   interface Palette {
     tertiary: Palette['primary'];
     quaternary: Palette['primary'];

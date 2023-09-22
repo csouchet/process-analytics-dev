@@ -25,7 +25,7 @@ import { PaletteOptions, SocialPaletteOptions } from '@mui/material';
  */
 export const paletteLight: PaletteOptions & SocialPaletteOptions = {
   mode: 'light',
-  contrastThreshold: 4.5,
+  contrastThreshold: 4.5, // To meet the minimum contrast of at least 4.5:1 as defined in WCAG 2.1 Rule 1.4.3
 
   background: {
     default: '#ffffff',
@@ -228,7 +228,7 @@ export const paletteLight: PaletteOptions & SocialPaletteOptions = {
 
 export const paletteDark: PaletteOptions & SocialPaletteOptions = {
   mode: 'dark',
-  contrastThreshold: 4.5,
+  contrastThreshold: 4.5, // To meet the minimum contrast of at least 4.5:1 as defined in WCAG 2.1 Rule 1.4.3
 
   background: {
     default: '#001f25',
